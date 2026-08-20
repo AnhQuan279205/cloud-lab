@@ -96,3 +96,60 @@ th {
 tr:nth-child(even) {
   background: #f8f8f8;
 }
+
+/* =========================
+   NÚT SỬA / XÓA
+   ========================= */
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.action-buttons button {
+  padding: 8px 12px;
+  font-size: 14px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+/* Nút Sửa */
+.edit-button {
+  background: #f0ad4e;
+}
+
+.edit-button:hover {
+  background: #ec971f;
+}
+
+/* Nút Xóa */
+.delete-button {
+  background: #d9534f;
+}
+
+.delete-button:hover {
+  background: #c9302c;
+}
+
+/* =========================
+   NÚT TRONG FORM
+   ========================= */
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.form-buttons button {
+  flex: 1;
+}
+
+.cancel-button {
+  background: #777;
+}
+
+.cancel-button:hover {
+  background: #555;
+}
