@@ -1,0 +1,14 @@
+services:
+  backend:
+    build:
+      context: ./mern-demo
+    ports:
+      - "5000:5000"
+    env_file:
+      - ./mern-demo/.env
+
+  frontend:
+    build:
+      context: ./client
+    ports:
+      - "8000:80"
