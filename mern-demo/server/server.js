@@ -11,6 +11,15 @@ const app = express();
 
 app.use(express.json());
 
+// Câu 44: Health Check
+app.get("/health", (req, res) => {
+  res.status(200).json({
+    status: "UP",
+    timestamp: new Date(),
+    uptime: process.uptime()
+  });
+});
+
 // API có sẵn
 app.get("/api/hello", (req, res) => {
   res.json({

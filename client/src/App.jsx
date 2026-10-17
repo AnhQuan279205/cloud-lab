@@ -194,7 +194,8 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Quản lý sinh viên - by Anh Quân</h1>
+      <h1>Quản lý sinh viên - Anh Quân</h1>
+      <p>Phiên bản 2.0</p>
 
       {/* =========================
           FORM THÊM / SỬA
